@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", "sans-serif";
+}
+.container {
+  width: 85vw;
+  margin: 2em auto;
+}
+/*Navbar Section*/
+
+.navbar-container {
+  width: 100%;
+  overflow: hidden;
+  align-items: baseline;
+}
+.navbar-container img {
+  float: left;
+}
+
+.list {
+  float: left;
+
+  margin: 1.5em 8em;
+  list-style-type: none;
+}
+
+.list-item {
+  display: inline;
+  margin-right: 2.2em;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+li:hover {
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+.button-group {
+  margin-left: em;
+}
+
+.search-icon {
+  float: left;
+  width: 20px;
+  padding-top: 0.6em;
+  margin-left: 2.5em;
+  margin-top: 0.2em;
+}
+.search-icon svg {
+  width: 100%;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 0.4em 2.8em;
+  border-radius: 8px;
+  margin-top: 1em;
+  margin-left: 1em;
+  font-family: Poppins;
+}
+
+.nav-button:hover {
+  background-color: black;
+  color: white;
+}
+
+/*Hero Banner Section*/
+
+img[src="/assets/squares.png"] {
+  position: absolute;
+  left: 210px;
+  top: 320px;
+  width: 280px;
+}
+
+img[src="/assets/Image.png"] {
+  position: relative;
+  left: 10px;
+  top: 45px;
+  width: 330px;
+}
+
+img[src="/assets/globe.png"] {
+  position: absolute;
+  left: 640px;
+  top: 115px;
+  width: 60px;
+}
+img[src="/assets/start.png"] {
+  position: absolute;
+  left: 1100px;
+  top: 160px;
+  width: 45px;
+}
+
+.hero-container-right {
+  position: absolute;
+
+  top: 230px;
+  left: 600px;
+}
+.hero-heading {
+  font-size: 43px;
+}
+.hero-description {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  width: 550px;
+  margin-top: 40px;
+}
+
+.button-email {
+  margin-left: 125px;
+  font-size: 18px;
+  margin-top: 60px;
+
+  border-radius: 8px;
+}
+
+.button-join {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+
+  margin-left: 0.5em;
+  margin-bottom: 60px;
+}
+
+.contact-heading {
+  margin-left: 210px;
+}
+.icons {
+  margin-top: 1em;
+  margin-left: 160px;
+}
+
+div.icons {
+}
